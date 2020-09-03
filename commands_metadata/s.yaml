@@ -1,0 +1,117 @@
+show_command_palette:
+  command_type: window
+  doc_string: Displays the command palette.
+  args:
+    - name: command
+      doc_string: The name of the command.
+      type: string
+    - name: args
+      doc_string: The arguments to be passed to the command.
+      type: object
+  added: 1055
+  type: core
+squash_commit:
+  command_type: window
+  doc_string:
+  added: 1055 
+  type: core
+squash_commits:
+  command_type: window
+  doc_string:
+  added: 1080
+  type: core
+stash:
+  command_type: window
+  doc_string:
+  added: 1055 
+  type: core
+stage_all:
+  command_type: window
+  doc_string:
+  added: 1055 
+  type: core
+stage_all_modified:
+  command_type: window
+  doc_string:
+  added: 1113 
+  type: core
+search:
+  command_type: window
+  doc_string:
+  args:
+    - name: query
+      doc_string:
+      type: string
+  added: 1055 
+  type: core
+show_ref:
+  command_type: window
+  doc_string:
+  args:
+    - name: ref
+      doc_string:
+      type: string
+  added: 1100  
+  type: core
+show_all_refs:
+  command_type: window
+  doc_string:
+  args:
+    - name: ref
+      doc_string:
+      type: string
+  added: 1100 
+  type: core
+set_upstream:
+  command_type: window
+  doc_string:
+  args:
+    - name: branch
+      doc_string: 
+      type: string
+  added:  
+  type: core
+select_sidebar_tab:
+  command_type: window
+  doc_string:
+  args:
+    - name: tab
+      doc_string: 
+      type: int
+  added: 2000 
+  type: core
+stage_file:
+  command_type: window
+  doc_string:
+  args:
+    - name: path
+      doc_string: 
+      type: string
+  added: 1104
+  type: core
+sync_submodule:
+  command_type: window
+  doc_string:
+  args:
+    - name: recursive
+      doc_string: 
+      type: boolean
+  added: 1072 
+  type: core
+save_without_staging:
+  command_type: window
+  doc_string:
+  added: 1114
+  type: core
+set_preference:
+  command_type: window
+  doc_string:
+  args:
+    - name: setting
+      doc_string: 
+      type: string
+    - name: value
+      doc_string: 
+      type: string
+  added: 2001
+  type: core

@@ -1,0 +1,9 @@
+blame:
+  command_type: window
+  doc_string: 
+  args:
+    - name: path
+      doc_string: 
+      type: string
+  added: 1055
+  type: core

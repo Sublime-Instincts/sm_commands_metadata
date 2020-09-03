@@ -1,0 +1,165 @@
+git_undo:
+  command_type: window
+  doc_string:
+  added: 1055
+  type: core
+git_redo:
+  command_type: window
+  doc_string: 
+  added: 1055
+  type: core
+generate_debug_info:
+  command_type: window
+  doc_string: Copies any debug information required for troubleshooting to the system clipboard. 
+  added: 1055
+  type: core
+git:
+  command_type: window
+  doc_string: 
+  args:
+    - name: argv
+      doc_string: 
+      type: 
+  added: 1055
+  type: core
+gitflow_finish_feature:
+  command_type: window
+  doc_string: 
+  args:
+    - name: branch
+      doc_string: 
+      type: string
+  added: 1072
+  type: core
+gitflow_finish_bugfix:
+  command_type: window
+  doc_string: 
+  args:
+    - name: branch
+      doc_string: 
+      type: string
+  added: 1072
+  type: core
+gitflow_finish_release:
+  command_type: window
+  doc_string: 
+  args:
+    - name: branch
+      doc_string: 
+      type: string
+  added: 1072
+  type: core
+gitflow_finish_hotfix:
+  command_type: window
+  doc_string: 
+  args:
+    - name: branch
+      doc_string: 
+      type: string
+  added: 1072
+  type: core
+gitflow_rebase_feature:
+  command_type: window
+  doc_string: 
+  args:
+    - name: branch
+      doc_string: 
+      type: string
+  added: 1072
+  type: core
+gitflow_rebase_bugfix:
+  command_type: window
+  doc_string: 
+  args:
+    - name: branch
+      doc_string: 
+      type: string
+  added: 1072
+  type: core
+gitflow_rebase_release:
+  command_type: window
+  doc_string: 
+  args:
+    - name: branch
+      doc_string: 
+      type: string
+  added: 1072
+  type: core
+gitflow_rebase_hotfix:
+  command_type: window
+  doc_string: 
+  args:
+    - name: branch
+      doc_string: 
+      type: string
+  added: 1072
+  type: core
+gitflow_rebase_support:
+  command_type: window
+  doc_string: 
+  args:
+    - name: branch
+      doc_string: 
+      type: string
+  added: 1072
+  type: core
+gitflow_start_feature:
+  command_type: window
+  doc_string: 
+  added: 1072
+  type: core
+gitflow_start_bugfix:
+  command_type: window
+  doc_string: 
+  added: 1072
+  type: core
+gitflow_start_release:
+  command_type: window
+  doc_string: 
+  added: 1072
+  type: core
+gitflow_start_hotfix:
+  command_type: window
+  doc_string: 
+  added: 1072
+  type: core
+gitflow_start_support:
+  command_type: window
+  doc_string: 
+  added: 1072
+  type: core
+gitflow_publish_feature:
+  command_type: window
+  doc_string: 
+  added: 2000
+  type: core
+gitflow_publish_bugfix:
+  command_type: window
+  doc_string: 
+  added: 2000
+  type: core
+gitflow_publish_release:
+  command_type: window
+  doc_string: 
+  added: 2000
+  type: core
+gitflow_publish_hotfix:
+  command_type: window
+  doc_string: 
+  added: 2000
+  type: core
+git_config:
+  command_type: window
+  doc_string:
+  args:
+    - name: key
+      doc_string: 
+      type: string
+    - name: value
+      doc_string: 
+      type: string
+    - name: is_default_value
+      doc_string: 
+      type: boolean
+  added: 1070
+  type: core

@@ -1,0 +1,26 @@
+unstage_all:
+  command_type: window
+  doc_string:
+  added: 1055 
+  type: core
+unstage_file:
+  command_type: window
+  doc_string:
+  args:
+    - name: path
+      doc_string: 
+      type: string
+  added: 1104 
+  type: core
+update_submodule:
+  command_type: window
+  doc_string:
+  args:
+    - name: recursive
+      doc_string: 
+      type: boolean
+    - name: initialize
+      doc_string: 
+      type: boolean
+  added: 1072 
+  type: core

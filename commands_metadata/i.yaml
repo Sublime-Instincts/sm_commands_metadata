@@ -1,0 +1,17 @@
+initialize_submodule:
+  command_type: window
+  doc_string: 
+  args:
+    - name: submodule_path
+      doc_string: 
+      type: string
+    - name: submodule_name
+      doc_string: 
+      type: string
+  added: 1072
+  type: core
+init_gitflow:
+  command_type: window
+  doc_string: 
+  added: 1072
+  type: core
